@@ -56,4 +56,6 @@ button {
   float: right;
   padding-top: 4em;
   max-width: 90%;
+  font-style: italic;
+  font-size: 20px;
 }
