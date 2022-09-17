@@ -1,13 +1,14 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-body{
+
+body {
   background-color: rgb(160, 160, 160);
 }
 
-header{
+header {
   background-color: rgb(160, 160, 160);
   padding: 1.5em;
   font-size: 10px;
@@ -16,33 +17,34 @@ header{
   color: wheat;
 }
 
-.quote-box{
-    max-width: 700px;
-   width: 90%;
+.quote-box {
+  max-width: 700px;
+  width: 90%;
   padding: 2em;
- border: 1px solid rgb(213, 210, 210);
- border-radius: 10px;
+  border: 1px solid rgb(213, 210, 210);
+  border-radius: 10px;
   margin: 0 auto;
-  box-shadow: 10px 10px 3px 10px #888888;
+  box-shadow: 8px 8px 3px 8px #888888;
   display: flex;
-   margin-top: 7em;
-   background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  margin-top: 7em;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   margin-top: 1em;
+  padding-top: 1em;
 }
 
-button{
-    padding: 1em;
-    border-radius: 5px;
-    background-color:black;
-    color: wheat;
+button {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: black;
+  color: wheat;
 }
 
-.quotes{
+.quotes {
   font-size: 35px;
   width: 100%;
 
@@ -50,8 +52,8 @@ button{
 
 
 
-.author{
+.author {
   float: right;
-padding-top: 4em;
-max-width: 100%;
+  padding-top: 4em;
+  max-width: 100%;
 }
