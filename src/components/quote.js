@@ -8,7 +8,6 @@ export default function Quote() {
     author: ""
   })
 
-  const [quoteText, setQuoteText] = React.useState(quoteData)
 
   function handleClick() {
     const quotesArray = quoteData.data.quotes
